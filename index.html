@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Clock - Isabella Lempetzeder</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
  </head>
  <body>
 <div class="container">
@@ -15,23 +17,30 @@
        <option value=""> New York </option>
        <option value=""> Paris </option>
     </select>
-    <div class="city">
+
+    <div class="city" id="sao-paulo">
+      <div>
+      <h2> São Paulo  </h2>
+      <div class="date"></div>
+      </div>
+      <div class="time"></div>
+    </div>
+
+    <div class="city" id="berlin">
       <div>
       <h2> Berlin  </h2>
-      <div class="date">September 12th 2024</div>
+      <div class="date"></div>
       </div>
-      <div class="time">1:48:15 <small>AM </small> </div>
+      <div class="time"></div>
     </div>
 
-     <div class="city">
+     <div class="city" id="tokyo">
       <div>
-      <h2> Paris  </h2>
-      <div class="date">September 12th 2024</div>
+      <h2>Tokyo </h2>
+      <div class="date"></div>
       </div>
-      <div class="time">1:48:15 <small>AM </small> </div>
+      <div class="time"></div>
     </div>
-
-
 
     
    </div>
